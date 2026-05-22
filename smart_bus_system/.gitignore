@@ -1,0 +1,90 @@
+# Ignore system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Ignore Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.iml
+*.lock
+pubspec.lock
+
+# Ignore build artifacts
+build/
+ios/Pods/
+ios/Podfile.lock
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+.gradle/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Firebase
+firebase-debug.log
+serviceAccountKey.json
+google-services.json
+GoogleService-Info.plist
+
+# API Keys
+**/firebase_options.dart
+**/.credentials/
+**/*_key*
+**/*_secret*
+
+# Generated files
+lib/generated/
+lib/generated_plugin_registrant.dart
+
+# Test coverage
+coverage/
+.coverage
+
+# Platform specific
+android/key.jks
+ios/Runner/GeneratedPluginRegistrant.*
+web/generatedPlugins.js
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS specific
+Thumbs.db
+.directory
+
+# Dependencies (optional - use if sharing build outputs)
+# pubspec.lock
+# /packages/*/pubspec.lock
+
+# Documentation files (optional)
+# *.pdf
+# *.docx
+
+# Production builds (optional)
+# build/
+# dist/
