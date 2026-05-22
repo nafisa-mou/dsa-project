@@ -101,7 +101,6 @@ class RequestQueue {
       'averageWaitTimeMinutes': _calculateAverageWaitTime(),
     };
   }
-dsfsdfgsfhf
   double _calculateAverageWaitTime() {
     if (_queue.isEmpty) return 0;
 
